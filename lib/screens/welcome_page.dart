@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:linkedin/screens/signup_page/signup_scree2.dart';
+import 'package:linkedin/screens/signin_page/signin_screen.dart';
+import 'package:linkedin/screens/signup_page/signup_screen2.dart';
 import 'package:linkedin/widget/constants.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -65,7 +66,7 @@ class WelcomePage extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const SignupScree2(),
+                              builder: (context) => const SignupScreen2(),
                             ),
                           );
                         },
@@ -154,17 +155,17 @@ class WelcomePage extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(
-                      height: 30,
+                      height: 20,
                     ),
                     Center(
                       child: InkWell(
                         onTap: () {
-                          // Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(
-                          //     builder: (context) => const SignUpScreen(),
-                          //   ),
-                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const SignInScreen(),
+                            ),
+                          );
                         },
                         child: const Text(
                           "Sign In",
