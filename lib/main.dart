@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:linkedin/screens/welcome_page.dart';
+import 'package:linkedin/screens/welcome_page/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());

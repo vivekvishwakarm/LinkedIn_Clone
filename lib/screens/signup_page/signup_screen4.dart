@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:linkedin/screens/signup_page/signup_screen3.dart';
 import 'package:linkedin/widget/constants.dart';
 
 class SignupScreen4 extends StatefulWidget {
